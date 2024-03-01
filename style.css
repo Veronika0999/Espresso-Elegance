@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row { 
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.heading-main h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+
+.empty-space {
+    height: 50px;
+}
+
+/*** HEADER ***/
+header{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("./img/coffee (2).jpg");
+    background-size: cover;
+    height: 80vh;
+    background-attachment: fixed;
+    object-position: bottom;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%)
+   /* border-bottom-left-radius: 140% 200px;
+   border-bottom-right-radius: 20% 50px;*/
+}
+
+.nav-background{
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    z-index: 50;
+    color: white;
+}
+
+nav ul {
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 50%;
+    float: right;
+    z-index: 100;
+ 
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 2px solid bottom;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    transition: border-bottom 0.5s;
+    border-bottom: 2px solid #fff;
+}
+
+.header-text{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);   
+}
+
+.header-text h1 {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2.2px;
+    word-spacing: 3.5px;
+    font-weight: lighter
+}
+
+.highlight{
+    font-weight: bold; 
+}
+
+
+
+/*** WHY YOU SHOULD VISIT US ***/
+.photo-segment {
+    margin-top: 50px;
+}
+
+.heading-main p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.photo-segment li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 20vh;
+}
+
+.photo-segment img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin: 5px;
+    opacity: 0.9;
+    transform: scale(1.15);
+    border-radius: 50%;
+    filter: grayscale(20%);
+}
+.special {
+    align-self: center;
+    padding-left: 50%;
+}
+
+.photo-segment img:hover{
+    transition: transform 0.5s, opacity 0.5s;
+    transform: scale(1);
+    opacity: 1
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-text1 {
+    position: absolute;
+    bottom: 40%; 
+    left: 20%; 
+    color: beige;
+    font-size: 46px;
+    align-items: center;
+}
+
+.image-text2 {
+    position: absolute;
+    bottom: 44%; 
+    left: 5%; 
+    color: beige;
+    font-size: 46px;
+    align-items: center;
+}
+
+.image-text3 {
+    position: absolute;
+    bottom: 47%; 
+    left: 25%; 
+    color: black;
+    font-size: 46px;
+}
+
+
+.visitus {
+    padding-bottom: 100px;
+}
+
+/*** OUR MENU ***/
+
+.menu {
+    padding-top: 50px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./img/coffee (1).jpg");
+    background-size: cover;
+    height: 60vh;
+    background-attachment: fixed;
+    object-position: bottom;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    color: #fff;
+    background-position: bottom;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+table {
+    border: 0;
+    width: 48%;
+}
+
+th, td {
+    border: 0;
+    padding: 8px;
+    text-align: left;
+    font-size: 19px;
+    
+}
+
+
+/*** WHERE YOU CAN FIND US? ***/
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    /**text-align: center;**/
+    align-items: center;
+    background-image: url('img/tabitha-turner-3n3mPoGko8g-unsplash-removebg-preview.png');
+    background-repeat: no-repeat;
+}
+
+.contact_address {
+    margin: 1rem;
+    font-size: 19px;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    padding: 16px;
+
+}
+
+.contact_hours {
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+   
+}
+
+table {
+    display: table;
+    text-align: center;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    
+    
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+
+
+.footer_content {
+    height: 25px;
+    margin: 0 auto;
+    font-size: small;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+
+@media only screen and (max-width: 983px) {
+    .contact{
+        background-image: none;
+    }
+    
+}
+
+@media only screen and (max-width: 845px) {
+    .photo-segment img {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .image-text1 {
+        bottom: 40%; 
+        left: 20%; 
+        font-size: 30px;
+    }
+    
+    .image-text2 {
+        bottom: 44%; 
+        left: 11%; 
+        font-size: 30px;
+    }
+    
+    .image-text3 {
+        bottom: 47%; 
+        left: 25%; 
+        font-size: 30px;
+    }
+
+    .heading-main p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 845px) {
+    .photo-segment img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .image-text1 {
+        bottom: 40%; 
+        left: 20%; 
+        font-size: 25px;
+    }
+    
+    .image-text2 {
+        bottom: 44%; 
+        left: 11%; 
+        font-size: 25px;
+    }
+    
+    .image-text3 {
+        bottom: 47%; 
+        left: 25%; 
+        font-size: 25px;
+    }
+
+    .heading-main h2 {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .photo-segment img {
+        margin: 35px;
+
+    }
+    .special {
+        padding-left: 0%;
+    }
+
+    .menu {
+        height: 75vh;
+    }
+    
+
+}
