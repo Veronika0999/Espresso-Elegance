@@ -1,1 +1,3 @@
-# Espresso-Elegance
+# Espresso Elegance
+
+## Project Description
