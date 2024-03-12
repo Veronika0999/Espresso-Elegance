@@ -16,4 +16,4 @@ Me, Veronika.
 This project is created for practice, therefore there is no specific licence.
 
 ## Sources
-- gallery: https://lokeshdhakar.com/projects/lightbox2/
+- JavaScript code for scrolling: https://lokeshdhakar.com/projects/lightbox2/
