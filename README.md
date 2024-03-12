@@ -1,15 +1,19 @@
 # Espresso Elegance
 
-## Project Description
-This project serves to practise my skills in HTML and CSS. The aim is to create a simple website for a coffee bar.
+## Project description
+This project is to practice my skills in HTML and CSS. The aim is to create a simple website for a coffee bar.
 
-## Project structure
-- index.html: the main HTML file that contains the structure of the website.
-- style.css: CSS file for website styling
+## Structure of the project
+- index.html: the main HTML file containing the structure of the website.
+- style.css: CSS file for styling the website
+- script.js: JavaScript file containing code for smooth scrolling on the page
 - img: directory containing images for this website
 
 ## Author
 Me, Veronika.
 
 ## Licence
-This project is created for practice, for this reason there is no specific licence 
+This project is created for practice, therefore there is no specific licence.
+
+## Sources
+- gallery: https://lokeshdhakar.com/projects/lightbox2/
