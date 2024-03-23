@@ -4,9 +4,9 @@
 This project is to practice my skills in HTML and CSS. The aim is to create a simple website for a coffee bar.
 
 ## Structure of the project
-- index.html: the main HTML file containing the structure of the website.
-- style.css: CSS file for styling the website
-- script.js: JavaScript file containing code for smooth scrolling on the page
+- <code>index.html</code>: the main HTML file containing the structure of the website.
+- <code>style.css</code>: CSS file for styling the website
+- <code>script.js</code>: JavaScript file containing code for smooth scrolling on the page
 - img: directory containing images for this website
 
 ## Author
