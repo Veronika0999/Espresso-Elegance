@@ -1,7 +1,7 @@
 # Espresso Elegance
 
 ## Project description
-This project is to practice my skills in HTML and CSS. The aim is to create a simple website for a coffee bar.
+The primary objective behind the 'Espresso Elegance' project was to leverage the extensive knowledge gained from a Udemy course. It provided an invaluable opportunity to put theoretical concepts into practice, particularly focusing on refining HTML and CSS skills.
 
 ## Structure of the project
 - <code>index.html</code> - the main HTML file containing the structure of the website.
