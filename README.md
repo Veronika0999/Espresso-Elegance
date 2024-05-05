@@ -8,7 +8,7 @@ The primary objective behind the 'Espresso Elegance' project was to leverage the
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
 
 ```
-git clone <repository_url>
+git clone https://github.com/Veronika0999/Espresso-Elegance.git
 ```
 
 ## Structure of the project
