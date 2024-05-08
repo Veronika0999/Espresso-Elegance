@@ -16,6 +16,3 @@ git clone https://github.com/Veronika0999/Espresso-Elegance.git
 - <code>style.css</code> - CSS file for styling the website
 - <code>script.js</code> - JavaScript file containing code for smooth scrolling on the page
 - img - directory containing images for this website
-
-## Author
-Me, Veronika.
