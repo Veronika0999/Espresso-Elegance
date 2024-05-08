@@ -19,6 +19,3 @@ git clone https://github.com/Veronika0999/Espresso-Elegance.git
 
 ## Author
 Me, Veronika.
-
-## Licence
-This project is created for practice, therefore there is no specific licence.
