@@ -22,6 +22,3 @@ Me, Veronika.
 
 ## Licence
 This project is created for practice, therefore there is no specific licence.
-
-## Sources
-- JavaScript code for scrolling: https://lokeshdhakar.com/projects/lightbox2/
